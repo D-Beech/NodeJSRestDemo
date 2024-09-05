@@ -31,10 +31,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users', usersRouter);
-
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
-});
  
 //This enabled CORS, Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) 
 //on a web page to be requested from another domain outside the domain from which the first resource was served
